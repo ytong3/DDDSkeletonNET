@@ -5,7 +5,7 @@ using System.Resources;
 
 namespace DDDSkeleton.Portal.Domain.Country
 {
-    public class CountryFactory
+    public class CountryFactory : ICountryFactory
     {
         private static IEnumerable<Country> AllCountries()
         {
@@ -20,6 +20,11 @@ namespace DDDSkeleton.Portal.Domain.Country
         public static Country Create(string countryCode)
         {
             return (from c in AllCountries() where c.CountryCode.ToLower() == countryCode.ToLower() select c).FirstOrDefault();
+        }
+
+        public Country CreateCountry(string countryCode)
+        {
+            return Create(countryCode);
         }
     }
 }

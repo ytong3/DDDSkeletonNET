@@ -13,15 +13,13 @@ using DDDSkeletonNET.Portal.Repository.Memroy.UnitOfWork;
 
 namespace DDDSkeletonNET.Portal.ApplicationServices.Implementations
 {
-    public class CustomerService : ICustomerService
+    public class CustomerService : ApplicationServiceBase, ICustomerService
     {
         private readonly ICustomerRepository _customerRepository;
-        private readonly IUnitOfWork _unitOfWork;
 
-        public CustomerService(ICustomerRepository customerRepository, IUnitOfWork unitOfWork)
+        public CustomerService(ICustomerRepository customerRepository, IUnitOfWork unitOfWork) : base(unitOfWork)
         {
             _customerRepository = customerRepository ?? throw new ArgumentException("Customer repo null");
-            _unitOfWork = unitOfWork ?? throw new ArgumentException("Unit of Work dependence null");
         }
         public DeleteCustomerResponse DeleteCustomer(DeleteCustomerRequest deleteCustomerRequest)
         {
