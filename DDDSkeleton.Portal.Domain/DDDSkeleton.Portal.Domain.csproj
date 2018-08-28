@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DDDSkeletonNET\DDDSkeletonNET.Infrastructure.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="CountrySpecificCustomer\" />
+  </ItemGroup>
+
+</Project>

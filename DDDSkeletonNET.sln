@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDSkeletonNET.Infrastructure.Common", "DDDSkeletonNET\DDDSkeletonNET.Infrastructure.Common.csproj", "{59C328D4-38C1-4C7C-9FA2-ADCF16EDFF3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDSkeleton.Portal.Domain", "DDDSkeleton.Portal.Domain\DDDSkeleton.Portal.Domain.csproj", "{CB6A3E21-2F7A-4068-BC51-6CC20C407C58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDSkeletonNET.Portal.Repository.Memroy", "DDDSkeletonNET.Portal.Repository.Memroy\DDDSkeletonNET.Portal.Repository.Memroy.csproj", "{3237D1E8-976A-4999-A107-54EAA7D926D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDSkeletonNET.Portal.ApplicationServices", "DDDSkeletonNET.Portal.ApplicationServices\DDDSkeletonNET.Portal.ApplicationServices.csproj", "{89E421E2-49E4-4F79-82C4-87053170FEC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDSkeletonNET.Portal.WebService", "DDDSkeletonNET.Portal.WebService\DDDSkeletonNET.Portal.WebService.csproj", "{B38CB6B6-F1B8-41AC-97CF-DF5260C387D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59C328D4-38C1-4C7C-9FA2-ADCF16EDFF3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59C328D4-38C1-4C7C-9FA2-ADCF16EDFF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59C328D4-38C1-4C7C-9FA2-ADCF16EDFF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59C328D4-38C1-4C7C-9FA2-ADCF16EDFF3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB6A3E21-2F7A-4068-BC51-6CC20C407C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB6A3E21-2F7A-4068-BC51-6CC20C407C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB6A3E21-2F7A-4068-BC51-6CC20C407C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB6A3E21-2F7A-4068-BC51-6CC20C407C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3237D1E8-976A-4999-A107-54EAA7D926D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3237D1E8-976A-4999-A107-54EAA7D926D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3237D1E8-976A-4999-A107-54EAA7D926D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3237D1E8-976A-4999-A107-54EAA7D926D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89E421E2-49E4-4F79-82C4-87053170FEC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89E421E2-49E4-4F79-82C4-87053170FEC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89E421E2-49E4-4F79-82C4-87053170FEC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89E421E2-49E4-4F79-82C4-87053170FEC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B38CB6B6-F1B8-41AC-97CF-DF5260C387D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B38CB6B6-F1B8-41AC-97CF-DF5260C387D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B38CB6B6-F1B8-41AC-97CF-DF5260C387D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B38CB6B6-F1B8-41AC-97CF-DF5260C387D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48187D64-333C-440F-B631-C5724DDDBDEB}
+	EndGlobalSection
+EndGlobal
