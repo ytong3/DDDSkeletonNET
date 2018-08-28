@@ -8,8 +8,4 @@
     <ProjectReference Include="..\DDDSkeletonNET\DDDSkeletonNET.Infrastructure.Common.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="CountrySpecificCustomer\" />
-  </ItemGroup>
-
 </Project>
